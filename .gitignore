@@ -1,0 +1,56 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# =========================
+# Xcode / Build Generated
+# =========================
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other Xcode
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+
+# =========================
+# Swift Package Manager (SPM)
+# =========================
+.build/
+.swiftpm/
+# Note: Do not ignore Package.resolved so your team uses the exact same dependency versions.
+
+# =========================
+# CocoaPods (Just in case you add it later)
+# =========================
+Pods/
+# Note: Keep Podfile and Podfile.lock out of gitignore.
+
+# =========================
+# Fastlane (If you add CI/CD later)
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =========================
+# Archives & Crashlytics
+# =========================
+*.ipa
+*.dSYM.zip
+*.dSYM
